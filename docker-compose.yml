@@ -1,7 +1,7 @@
 version: '3'
 services:
   gpt-researcher:
-    image: joyshmitz/researcher-gpt
+    image: researcher-gpt:v0.0.1
     build: ./
     environment: 
       OPENAI_API_KEY: ${OPENAI_API_KEY}
